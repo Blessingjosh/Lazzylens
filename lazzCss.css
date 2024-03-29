@@ -1,0 +1,275 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nosifer&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(images/kkkkkkkk.jpeg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.img{
+    width: 130px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.w{
+    text-decoration: none;
+    font-family: 'Edu TAS Beginner';
+    font-weight: 600;
+}
+.w:hover, .w:focus{
+    color: #570861;
+}
+.navbar{
+     width: 90%;
+     height: 15%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+button{
+    color: #570861;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #570861;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.content{
+    position: relative;
+    color: #ffa400;
+    top: 45%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.logo  .b{
+    color: #ffa400;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+.logo  .c{
+    color:#570861;
+    font-family: 'Pacifico', cursive;
+}
+.lazzy{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.welcome{
+    color: #570861;
+    font-size: 19px;
+    font-family: 'Edu TAS Beginner';
+    font-weight: bold;
+}
+.take{
+    font-weight: bolder;
+    border-left: 7px solid;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+.book{
+    font-family: 'Orbitron', sans-serif;
+}
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient( #ffa400, #570861);
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+.display{
+    height: 100%;
+    width: 0%;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    transition: 1s;
+    position: fixed;
+    background-color: #ffa400;
+    overflow-x: hidden;
+    
+}
+.displaycontent{
+    position: relative;
+    top: 20%;
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 5px;
+    text-align: center;
+    
+}
+.display a{
+    display: block;
+    padding: 8px;
+    color: #570861;
+    transition: 1s;
+    font-size: 30px;
+    text-decoration: none;
+    padding-top: 0;
+}
+.display a:hover, a:focus{
+    color: aliceblue;
+}
+.closebutton{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.social-link, .useful-link {
+    width: 30px;
+    margin: 5px auto;
+    cursor: pointer;
+    z-index: 4;
+    background-color: #570861;
+}
+.social-link{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+}
+.useful-link{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 130px;
+    
+}
+a{
+    color: #ffa400;
+}
+a:hover{
+    color: antiquewhite;
+}
+.bubbles img{
+    width: 50px;
+   z-index: 1;
+    border-radius: 25px;
+    animation: bubbles 7s linear infinite;
+    
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -70px;
+}
+@keyframes bubbles{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+        
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    } 
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 40px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 5s;
+    width: 30px;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 0.5s;
+    width: 20px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 3s;
+    width: 30px;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 4s;
+    width: 35px;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 1.5s;
+    width: 30px;
+}
+
+@media screen and (max-width: 767px){
+.display a {
+    font-size: 20px;   
+}
+.useful-link{
+    bottom: 330px;
+}
+.lazzy{
+    font-size: 50px;
+    margin: 10px 0 10px;
+    line-height: 50px;
+}
+.content{
+    top: 30%;
+    left: 8%; 
+}
+button{
+    display: none;
+}
+.hero{
+    width: 100%;
+}
+}
+ @media screen and (max-width: 1000px){
+ .content{
+    top: 30%;
+    left: 8%; 
+}
+.lazzy{
+    font-size: 50px;
+    margin: 10px 0 10px;
+    line-height: 50px;
+}
+.w{
+    display: none;
+}
+}  
+@media screen and (max-width: 400px){
+    .lazzy{
+        font-size: 40px;
+        margin: 10px 0 10px;
+        line-height: 50px;
+}}

@@ -1,0 +1,50 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(uuuuu.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+.img{
+    width: 130px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.w{
+    text-decoration: none;
+    color: white;
+    word-spacing: 30px;
+    z-index: 5;
+}
+header{
+    font-size: 40px;
+    color: #ffa400;
+    text-align: center;
+    z-index: 10;
+}
+/* form{
+    text-align: center;
+}
+.fname{
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+   
+}
+.lname{
+    width: 200px;
+}
+.address{
+    width: 400px;
+} */

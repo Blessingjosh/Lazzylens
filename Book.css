@@ -34,6 +34,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  top: 20%;
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 5px;
+  text-align: center;
 }
 .closebutton{
   position: absolute;
@@ -134,5 +140,28 @@ font-family: 'Open Sans';
   letter-spacing: 5px;
   padding-left: 90px;
   font-family: 'Fugaz One';
+
+}
+.navbar{
+  height: 100%;
+     width: 0%;
+     top: 0;
+     right: 0;
+     z-index: 3;
+     transition: 1s;
+     position: fixed;
+     background-color: #ffa400;
+     overflow-x: hidden;
+}
+.navbar a{
+  display: block;
+     padding: 8px;
+     color: #570861;
+     transition: 1s;
+     font-size: 30px;
+     text-decoration: none;
+     padding-top: 0;
+}
+@media screen and (max-width: 900px){
 
 }

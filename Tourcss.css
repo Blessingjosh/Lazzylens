@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nosifer&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Fugaz+One&family=Nosifer&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nosifer&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&display=swap');
  * {
      margin: 0 auto;
      padding: 0;
@@ -24,31 +27,38 @@
      display: inline;
  }
 
- .w {
-     font-size: 18px;
+ .w a {
      word-spacing: 15px;
+     font-weight: 600;
+    font-family: 'Edu TAS Beginner';
+    font-size: 15px;
+ }
+ .ok{
+    font-family: 'Pacifico', cursive;
+    background-color: aliceblue;
+    color: #570861;
+    font-weight: 1000;
+    float: right;
+     padding: 5px 25px;
+     border: 5px solid #ffa400;
+     border-bottom: none;
+     border-radius: 20px;
+     outline: none;
+     cursor: pointer;
+     margin-top: -5px;
+
  }
 
  .logo ul li a {
      text-decoration: none;
+     border-radius: 5px;
+    padding: 3px;
      color: #ffa400;
  }
 
  .logo ul li a:hover {
      background-color: #ffa400;
      color: #570861;
- }
-
- button {
-     float: right;
-     padding: 5px 25px;
-     background-color: #ffa400;
-     background: transparent;
-     color: #ffa400;
-     border: 1px solid #ffa400;
-     border-radius: 20px;
-     outline: none;
-     cursor: pointer;
  }
 
  .navbar {

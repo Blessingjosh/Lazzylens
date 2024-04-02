@@ -1,6 +1,16 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nosifer&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Fugaz+One&family=Nosifer&family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nosifer&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&display=swap');
+ *{
     margin: 0;
     
+}
+.z{
+    /* font-family: 'Edu TAS Beginner'; */
+    font-weight: 600;
+    font-family: 'Edu TAS Beginner';
+    font-size: 16px;
+
 }
 
 
@@ -47,6 +57,8 @@
 .logo ul li a:hover{
     background-color: #ffa400;
     color: #570861;
+    border-radius: 5px;
+    padding: 3px;
 }
 .j{
     border: 1px solid;
@@ -92,6 +104,8 @@ h1{
 }
 .contact{
     font-size: 40px;
+    font-family: 'Pacifico', cursive;
+
 }
 #message{
     width: 670px;
@@ -117,6 +131,9 @@ h1{
     color: #570861;
     width: 90px;
     border: none;
+    font-size: 20px;
+    font-family: 'Edu TAS Beginner';
+    font-weight: bolder;
     box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
 }
 .b{

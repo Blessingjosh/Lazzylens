@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nosifer&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Fugaz+One&family=Nosifer&family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nosifer&family=Orbitron&family=Pacifico&family=Shadows+Into+Light&display=swap');
 *{
     margin: 0 auto;
      padding: 0;
@@ -35,8 +38,11 @@
     
 }
 .logo ul li a:hover{
+    
     background-color: #ffa400;
     color: #570861;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 
@@ -45,10 +51,22 @@
     overflow: auto;
     background-color: #570861;
 }
+.w{
+  text-decoration: none;
+  font-size: 15px;
+
+  font-family: 'Edu TAS Beginner';
+  font-weight: 600;
+  
+}
 header{
     font-size: 30px;
-    background-color: #570861;
+    /* background-color: #570861; */
+  font-family: 'Edu TAS Beginner';
+  font-weight: 1000;
+    
     color: #ffa400;
+    
 }
 .me{
     border:3px;
@@ -77,6 +95,10 @@ header{
   }
   .button{
     line-height: 20px;
+    font-size: 20px;
+  font-family: 'Edu TAS Beginner';
+  font-weight: 1000;
+
   }
  html{box-sizing: border-box;
  }

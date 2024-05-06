@@ -10,21 +10,34 @@
     <title>Tour</title>
 </head>
 <body>
+    <div class="top">
+        <div class="logo">
+            <img class="u" src="images/best.JPG"  alt="logo">
+                <ul class="w">
+                    <li><a class ="z" href="index.html">HOME</a></li>
+                    <li><a class ="z" href="About.html">ABOUT</a></li>
+                    <li><a class ="z" href="Contact.html">CONTACT</a></li>
+                    <li><a class ="z" href="Tour.html">GALLERY</a></li>
+                    <li><a class ="z" href="#">BLOG</a></li>
+                </ul>
+        </div>
+        </div>
     <div class="navbar">
-<div class="top">
+<!-- <div class="top">
 <div class="logo">
     <img class="u" src="images/best.JPG"  alt="logo">
         <ul class="w">
-            <li><a href="lazzHtml.html">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
             <li><a href="Contact.html">CONTACT</a></li>
             <li><a href="Tour.html">PORTFOLIO</a></li>
         </ul>
         
 </div>
-<button class="ok"  onclick="ok()">Book a Section</button>
+
+
 </div>
-    
+     -->
 <div class="side-bar"> 
     <div id="key" class="display">
       <a href="Tour.html" class="closebutton" onclick="cbutton()">&times;</a>
@@ -39,7 +52,7 @@
           <a href="#">Blog</a>
       </div>
     </div>  
-    <span style="font-size:30px; cursor: pointer; color: #ffa400;" onclick="obutton()">&#9776;</span><br>
+    <span class="dee" onclick="obutton()">&#9776;</span><br>
     </div>
     </div>
 <br><br><br>
@@ -51,8 +64,11 @@
         <li class="list" data-filter="Wedding">Wedding</li>
         <li class="list" data-filter="Birthday">Birthday</li>
         <li class="list" data-filter="Frames">Frames</li>
+        <li id="off" class="list" onclick="ok()" data-filter="Frames">Book a Section</li>
+
+        
     </ul>
-    
+    <div class="l"><button class="ok"  onclick="ok()">Book a Section</button></div> 
     <div class="photograph">
         <div class="photo fashion"><img src="images/New folder/fashion1.jpg"  ></div>
         <div class="photo Model"><img src="images/New folder/model1.jpg" ></div>

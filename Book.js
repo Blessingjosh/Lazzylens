@@ -4,3 +4,7 @@ function obutton(){
 function cbutton(){
   document.getElementById("key").style.width = "0%";
 }
+
+function showForm(){
+  document.getElementById('formElement').style.display ='block';
+}

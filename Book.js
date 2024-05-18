@@ -8,3 +8,7 @@ function cbutton(){
 function showForm(){
   document.getElementById('formElement').style.display ='block';
 }
+
+function others(){
+  prompt('Please specify your session type')
+}

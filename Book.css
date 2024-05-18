@@ -41,8 +41,6 @@
   border-radius: 5px;
   padding: 3px;
   color: #ffa400;
-
-
 }
 
 .logo ul li a:hover {
@@ -141,10 +139,7 @@ right: 900px;
   /* width: 120%; */
 }
 
-/* .contain {
 
-  
-} */
 
 .a {
   color: white;
@@ -260,6 +255,27 @@ right: 900px;
   grid: column gap 1.2rem;
   align-items: center;
   margin-top: 5px;
+}.h{
+  font-size: 16px;
+  text-align: left;
+}
+
+.carbo{
+  margin-right: 15px;
+  margin-bottom: 8px;
+
+}
+.date{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 10px;
+  
+}
+.Starting{
+  margin-top: 10px;
+  text-align: left;
+  /* font-size: 10px; */
 }
 @media screen and (max-width: 1000px) {
   .w li a{

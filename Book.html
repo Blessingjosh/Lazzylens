@@ -1,45 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book a section</title>
   <link rel="stylesheet" href="Book.css">
 </head>
+
 <body>
-  <div class="hero">
-      <div class="navbar" id="key">
-        <!-- <a href="Book.html" class="closebutton" onclick="cbutton()">&times;</a> -->
-        <div class="nav">
-          <p class="logo"><span class="z">Lazzy</span><span class="y">Lens</span></p>
-        <a class="w" href="lazzHtml.html">HOME</a>
-        <a class="w" href="Contact.html">CONTACT</a>
-        <a class="w" href="#">ABOUT</a>
-        <a class="w" href="Tour.html">GALLERY</a>
-        <a class="w" href="#">TESTIMONIES</a>
-        </div>
-        
-        <span class="here" style="font-size:30px; cursor: pointer; color: #ffa400;" onclick="obutton()">&#9776;</span><br>
-      </div>
-    
-    
-    <div class="container">
-      <div class="contain">
-          <h1 class="a">TIME OPEN</h1>
-          <h2 class="b">Monday - Saturday</h2>
-          <p class="c">7am - 11am (Morning Session)</p>
-          <p class="c">1pm - 6pm (Afternoon Session)</p>
-          <h2 class="f">Sunday</h2>
-          <p class="c">1pm - 6pm (Afternoon Session)</p>
-          <hr>
-          <h2 class="d">Call Us: (+234) 90-3620-1248</h2>
-          <!-- <input class="e" type="text" placeholder="Book Online"> -->
-          <input type="submit" value="Book Online" onclick="ok()">
-          <!-- <button class="e">Book Online</button> -->
-        </div>
+  <div class="navbar">
+    <div class="top">
+      <div class="logo">
+        <img class="u" src="images/best.JPG" alt="logo">
+        <ul class="w">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+          <li><a href="Tour.html">GALLERY</a></li>
+          <li><a href="Testimonials.html">TESTIMONIES</a></li>
+        </ul>
       </div>
     </div>
+    <div class="side-bar">
+      <div id="key" class="display">
+        <a href="Book.html" class="closebutton" onclick="cbutton()">&times;</a>
+        <div class="displaycontent">
+          <a href="About.html">About Us</a>
+          <a href="Contact.html">Contact Us</a>
+          <a href="#">Prices and Rates</a>
+          <a href="Tour.html">Gallery</a>
+          <a href="#">Client Albums</a>
+          <a href="#">Testimonials</a>
+          <a href="#">Book Online</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <span style="font-size:30px; cursor: pointer; color: #ffa400;" onclick="obutton()">&#9776;</span><br>
+    </div>
+  </div>
+ <div class="init">
+  <img src="images/New folder/init5.webp" alt="">
+ </div>
+  <div class="container">
+    <div class="contain">
+      <h1 class="a">TIME OPEN</h1>
+      <h2 class="b">Monday - Saturday</h2>
+      <p class="c">7am - 11am (Morning Session)</p>
+      <p class="c">1pm - 6pm (Afternoon Session)</p>
+      <h2 class="f">Sunday</h2>
+      <p class="c">1pm - 6pm (Afternoon Session)</p>
+      <hr>
+      <h2 class="d">Call Us: (+234) 90-3620-1248</h2>
+      
+      <input class="for" type="submit" value="Book Online" onclick="showForm()">
+      
+      <form id="formElement" style="display: none;">
+        <div class="oil">
+        <p class="to">BOOKING FORM</p>
+        <p class="of">Client information</p>
+        <div class="two">
+          <span><input class="three" type="text" placeholder="Name:" ></span>
+          <span><input class="three" type="text" placeholder="Phone:"><br></span>
+        </div>
+      <div class="one">
+        <input class="four" type="text" placeholder="Email:"><br>
+        <input class="four" type="text" placeholder="Client Address:">
+      </div>
+      <div class="header_center">SESSION INFO</div>
+      <h1 class="h">SESSION TYPE</h1>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Seasonal</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Maternity</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Newborn</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Family</label><br>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Senior</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Couples</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Wedding</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Children</label><br>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Birthday</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Graduation</label>
+<input type="radio" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Anniversary</label>
+<input type="radio" onclick="others()" name="fav_language" id="carbohydrate" value="carbohydrate">
+<label class="carbo" for="carbohydrate">Others</label>
+    <span class="Starting">Starting date:<input class="date" type="date"  min="2024-05-17"></span>
+      </form>
+      
+    </div>
+  </div>
   
+
   <script src="Book.js"></script>
 </body>
+
 </html>

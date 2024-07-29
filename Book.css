@@ -218,7 +218,6 @@ right: 900px;
 }
 .four
 {
-  /* text-align: left; */
   width: 100%;
   border-bottom: 2px solid #888888;
   border-top: none;
@@ -261,7 +260,7 @@ right: 900px;
 }
 
 .carbo{
-  margin-right: 15px;
+  /* margin-right: 15px; */
   margin-bottom: 8px;
 
 }
@@ -269,13 +268,53 @@ right: 900px;
   border-top: none;
   border-left: none;
   border-right: none;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   
 }
 .Starting{
-  margin-top: 10px;
+  /* margin-top: 5px; */
   text-align: left;
-  /* font-size: 10px; */
+  margin-left: 70px;
+}
+
+input[type="date"]{
+    background-color:#ffa400 ;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 75%;
+    left: 55%;
+    font-family: "Roboto Mono",monospace;
+    color: #570861;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type="time"]{
+  background-color:#ffa400 ;
+  font-family: "Roboto Mono",monospace;
+  color: #570861;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.five
+{
+  width: 100%;
+  border-bottom: 2px solid #888888;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 10px;
+  
 }
 @media screen and (max-width: 1000px) {
   .w li a{
